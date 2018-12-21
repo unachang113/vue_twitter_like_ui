@@ -77,8 +77,5 @@ module.exports = {
         loader: 'url-loader'
       },
     ],
-  },
-  plugins: [
-    new ExtractTextPlugin('css/application.css'),
-  ],
+  }
 };
